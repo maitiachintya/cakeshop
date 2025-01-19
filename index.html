@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Cake Shop</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Delicious Cake Shop</h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Welcome to Delicious Cake Shop</h2>
+        <p>Your one-stop destination for the most delicious cakes in town!</p>
+        <a href="#products" class="btn">Explore Cakes</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+          <img
+            src="image/delicious_cake.jpg.crdownload"
+            alt="Delicious Cakes"
+            class="about-img"
+          />
+          <div class="about-text">
+            <p>
+              Welcome to Delicious Cake Shop! We have been crafting
+              mouthwatering cakes for all occasions for over a decade. Our cakes
+              are made with the finest ingredients and lots of love.
+            </p>
+            <p>
+              Whether you are celebrating a birthday, wedding, or just indulging
+              in a sweet treat, we have something special for you!
+            </p>
+            <p>
+              Our cakes are not just desserts; they are a statement of quality
+              and perfection. Join us and experience the best cakes in town!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <h2 class="section-title">Our Cakes</h2>
+      <div class="product-list">
+        <div class="product">
+          <img src="image/choco_cake.jpg" alt="Chocolate Cake" />
+          <h3>Chocolate Cake</h3>
+          <p>Rich and moist chocolate cake for every occasion.</p>
+        </div>
+        <div class="product">
+          <img src="image/red_velvate.jpg" alt="Red Velvet Cake" />
+          <h3>Red Velvet Cake</h3>
+          <p>Indulge in the perfect blend of sweetness and elegance.</p>
+        </div>
+        <div class="product">
+          <img src="image/fruit_cake.jpg" alt="Fruit Cake" />
+          <h3>Fruit Cake</h3>
+          <p>Fresh and delightful fruit cake to make your day special.</p>
+        </div>
+        <div class="product">
+          <img src="image/cheese_cake.jpg" alt="Cheesecake" />
+          <h3>Cheesecake</h3>
+          <p>Creamy and luscious cheesecake for a heavenly treat.</p>
+        </div>
+      </div>
+    </section>
+
+    <form action="#" method="POST" class="contact-form">
+      <h3>Send Us a Message</h3>
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your Name"
+        required
+      />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your Email"
+        required
+      />
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Your Message"
+        rows="5"
+        required
+      ></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <footer class="footer">
+      <p>&copy; 2025 Delicious Cake Shop. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
