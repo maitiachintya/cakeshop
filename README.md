@@ -85,4 +85,5 @@ This project is complete and ready to be deployed. I encourage anyone interested
 Thanks to the open-source community for providing resources like Bootstrap and Font Awesome that made this project easier to build and design.
 ## Demo and Live Version 🚀
 GitHub Repository: https://github.com/maitiachintya/cakeshop
+
 Live Demo: https://shopscake.netlify.app/
