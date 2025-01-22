@@ -37,12 +37,18 @@ An interactive contact message form where customers can customize their cake ord
 ![Screenshot (242)](https://github.com/user-attachments/assets/0058a33f-7f2c-4bfc-af06-05d1962efe15)
 
 ## Technologies Used 🛠️
-HTML5: Markup language used for creating the structure of the website.
-CSS3: Stylesheets used for layout, design, and responsive design.
-JavaScript: Used for form validation, dynamic content loading, and interactivity.
-Bootstrap (optional, if used): A powerful front-end framework to ensure a responsive and mobile-friendly design.
-jQuery (optional, if used): For animations, effects, and simplifying JavaScript interactions.
-Font Awesome: For elegant icons to enhance UI/UX.
+### HTML5: 
+Markup language used for creating the structure of the website.
+### CSS3: 
+Stylesheets used for layout, design, and responsive design.
+### JavaScript: 
+Used for form validation, dynamic content loading, and interactivity.
+### Bootstrap (optional, if used): 
+A powerful front-end framework to ensure a responsive and mobile-friendly design.
+### jQuery (optional, if used): 
+For animations, effects, and simplifying JavaScript interactions.
+### Font Awesome: 
+For elegant icons to enhance UI/UX.
 ## How to Run the Project Locally 🖥️
 ### Prerequisites:
 A web browser (Chrome, Firefox, Safari, etc.)
